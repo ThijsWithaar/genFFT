@@ -60,7 +60,5 @@ else( )
 	set( CPACK_GENERATOR "TGZ;DEB" )
 endif( )
 
-
 # Define all variables that influence CPack before including CPack, such as install targets
 include( CPack )
-
